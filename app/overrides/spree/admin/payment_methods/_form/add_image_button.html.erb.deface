@@ -1,5 +1,6 @@
 <!-- insert_after '[data-hook=active]' -->
 <div class="field">
-  <%= label_tag nil, Spree.t(:icon) %>
-  <%= file_field :payment_method, :icon %>
+  <%= f.label :icon %>
+  <%= f.file_field :icon %>
+  <%= image_tag @payment_method.icon.url(:normal) %>
 </div>
