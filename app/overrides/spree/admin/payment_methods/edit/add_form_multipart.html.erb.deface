@@ -1,0 +1,2 @@
+<!-- replace "erb[loud]:contains('form_for @payment_method, :url => admin_payment_method_path(@payment_method) do |f|')" -->
+<%= form_for @payment_method, :url => admin_payment_method_path(@payment_method), :html => {:multipart => true} do |f| %>
