@@ -2,5 +2,5 @@
 <div class="field">
   <%= label_tag nil, Spree.t(:icon) %>
   <%= file_field :payment_method, :icon %>
-  <%= image_tag @payment_method.icon.url(:normal) %>
+  <%= image_tag @payment_method.icon.url(:normal) if @payment_method.icon? %>
 </div>

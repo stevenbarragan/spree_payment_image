@@ -1,0 +1,2 @@
+<!-- insert_bottom "[data-hook=checkout_payment_step] label" -->
+<%= image_tag method.icon.url(:mini), class: 'payment_method_image', style: 'margin-left:10px;' if method.icon? %>
