@@ -1,7 +1,7 @@
 SpreePaymentImage
 =================
 
-Introduction goes here.
+It allows you to attach an image to your payment methods
 
 Installation
 ------------
@@ -9,7 +9,7 @@ Installation
 Add spree_payment_image to your Gemfile:
 
 ```ruby
-gem 'spree_payment_image'
+gem 'spree_payment_image' , '~> 2.0'
 ```
 
 Bundle your dependencies and run the installation generator:

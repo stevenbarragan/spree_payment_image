@@ -12,7 +12,6 @@ Gem::Specification.new do |s|
   s.homepage  = 'http://github.com/stevenbarragan/spree_payment_image'
 
   s.files       = `git ls-files`.split("\n")
-  #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
